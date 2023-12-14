@@ -58,5 +58,27 @@ messi += 5
 
 == === != !== < > <= >=
 
+=== value and type comparison
 
+!= is a not equal sign
+
+4. Logical operators
+
+&& || !
+
+&& means and both sides need to be true 
+
+|| at least one side should be true
+
+! means not (you may reverse any expression which is true)
 */
+
+// case of use
+
+const isLoggedIn = true;
+
+const hasPermission = false;
+
+const canPerformAction = isLoggedIn && hasPermission;
+
+// This way you may have an abilty to either authorise the user or not
