@@ -28,3 +28,24 @@ new Date("Jan 2020 20 02:20:10 (EDT)");
 //EXAMPLE #6
 // The current moment, specified in the user`s local timezone
 new Date(Date.now());
+
+// ====== Date methods ======
+
+const myDate = new Date();
+
+myDate.toString();
+//Gives as a string
+
+myDate.toISOString();
+// convets into ISO standard
+
+myDate.getDate();
+// prints out current date
+
+myDate.getMonth();
+// prints out current month(January is month 0)
+
+myDate.getFullYear();
+// prints out a year
+
+//Date.getYear is not longer supported
