@@ -20,3 +20,7 @@ console.log(/[a-z ]{0,6}/.exec(string1)); // the code matches the characters bet
 const str = "my name is, 2022 @ messi";
 
 console.log(/^[a-z ]+,[0-9 ]+@[a-z ]+$/.exec(str));
+
+// or you can simplify it even more
+
+/.+/.exec(string1);
