@@ -1,0 +1,14 @@
+span {
+  color: red;
+}
+
+.div-1,
+.div-2 {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.goat-image {
+  margin: 20px;
+}
